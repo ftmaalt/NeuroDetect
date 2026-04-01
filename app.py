@@ -7,7 +7,7 @@ import base64
 import time
 
 # configuring page and initializing theme
-st.set_page_config(page_title="NeuroDetect AI", page_icon="🧠", layout="centered")
+st.set_page_config(page_title="NeuroDetect", page_icon="🧠", layout="centered")
 
 if 'theme' not in st.session_state:
     st.session_state.theme = 'dark'
